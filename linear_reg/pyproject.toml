@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "linear-reg-task"
+version = "0.1.0"
+description = "Задание по линейной регрессии с полиномиальными признаками"
+authors = ["andreev.d.111 <andreev.d.111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.0"
+scikit-learn = "^1.2.0"
+joblib = "^1.2.0"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
