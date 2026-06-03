@@ -1,0 +1,4 @@
+include:
+  - project: 'all-python/ml/students-pipeline'
+    ref: master
+    file: '.gitlab-ci-test.yml'
